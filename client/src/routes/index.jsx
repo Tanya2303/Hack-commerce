@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar';
 import Home from '../pages/Home';
 import Login from '../pages/Login';
 import Register from '../pages/Register';
+import BuyItems from '../pages/BuyItems';
+import SellItems from '../pages/SellItems';
 
 function Index() {
     return (
@@ -12,6 +14,8 @@ function Index() {
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
+                <Route path="/buyitems" element={<BuyItems />} />
+                <Route path="/sellitems" element={<SellItems />} />
             </Routes>
         </BrowserRouter>
     );
