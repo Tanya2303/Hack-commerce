@@ -5,6 +5,7 @@ import Login from '../pages/Login';
 import Register from '../pages/Register';
 import BuyItems from '../pages/BuyItems';
 import SellItems from '../pages/SellItems';
+import Donate from '../pages/Donate';
 
 function Index() {
     return (
@@ -16,6 +17,7 @@ function Index() {
                 <Route path="/register" element={<Register />} />
                 <Route path="/buyitems" element={<BuyItems />} />
                 <Route path="/sellitems" element={<SellItems />} />
+                <Route path="/donate" element={<Donate />} />
             </Routes>
         </BrowserRouter>
     );
